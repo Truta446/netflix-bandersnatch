@@ -81,6 +81,10 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+assets/timeline/01.intro-1920x1080
+assets/timeline/02.guitarra-1920x1080
+assets/timeline/02.violao-1920x1080
+assets/timeline/03.encerramento-1920x1080
 
 # Gatsby files
 .cache/

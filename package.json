@@ -1,0 +1,23 @@
+{
+  "name": "netflix-bandersnatch",
+  "version": "1.0.0",
+  "description": "- Acesse o [index](./public/index/index.html) para visualizar a lista de titulos - Acesse o [bandersnatch](./public/bandersnatch/index.html) para acessar o titulo base do projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truta446/netflix-bandersnatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truta446/netflix-bandersnatch/issues"
+  },
+  "homepage": "https://github.com/Truta446/netflix-bandersnatch#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
