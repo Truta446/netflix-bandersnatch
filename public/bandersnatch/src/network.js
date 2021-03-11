@@ -15,21 +15,13 @@ class Network {
     }
 
     async fetchFile(url) {
-        const response = await fetch(url, { mode: 'cors', headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-            'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin, Access-Control-Allow-Methods'
-        } })
+        const response = await fetch(url)
         return response.arrayBuffer()
     }
 
     async getProperResolution(url) {
         const startMs = Date.now()
-        const response = await fetch(url, { mode: 'cors', headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-            'Access-Control-Allow-Headers': 'Access-Control-Allow-Origin, Access-Control-Allow-Methods'
-        } })
+        const response = await fetch(url)
         await response.arrayBuffer()
         const endMs = Date.now()
         const durationInMs = (endMs - startMs)
