@@ -15,13 +15,13 @@ class Network {
     }
 
     async fetchFile(url) {
-        const response = await fetch(url, { method: 'GET', mode: 'no-cors' })
+        const response = await fetch(url, { mode: 'cors' })
         return response.arrayBuffer()
     }
 
     async getProperResolution(url) {
         const startMs = Date.now()
-        const response = await fetch(url, { method: 'GET', mode: 'no-cors' })
+        const response = await fetch(url, { mode: 'cors' })
         await response.arrayBuffer()
         const endMs = Date.now()
         const durationInMs = (endMs - startMs)
