@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/Truta446/netflix-bandersnatch.git"
   },
-  "keywords": ["netflix", "bandersnatch", "player", "video"],
+  "keywords": [
+    "netflix",
+    "bandersnatch",
+    "player",
+    "video"
+  ],
   "author": "Juan Versolato Lopes",
   "license": "MIT",
   "bugs": {
